@@ -1,0 +1,33 @@
+.text{
+    color: var(--primary);
+    border-bottom: 3px solid transparent;
+    transition: 0.3s all;
+}
+.text2{
+    color: var(--secondary);
+}
+.text:hover{
+    color: var(--tertiary);
+    border-bottom: 3px solid var(--tertiary);
+}
+.btn1{
+    border: 2px solid var(--tertiary);
+    color: var(--tertiary);
+    transition: 0.3s all;
+}
+.btn2{
+    background-color: var(--tertiary);
+    color: #fff;
+    transition: 0.3s all;
+}
+.btn1:hover{
+    background-color: var(--tertiary);
+    color: #fff;
+}
+.btn2:hover{
+    background-color: var(--primary);
+    color: #fff;
+}
+.nav{
+    background-color: var(--background);
+}

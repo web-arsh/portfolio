@@ -1,0 +1,15 @@
+.text{
+    color: var(--primary);
+}
+.text2{
+    color: var(--secondary);
+}
+.btn1{
+    border: 2px solid var(--tertiary);
+    color: var(--tertiary);
+    transition: 0.3s all;
+}
+.btn1:hover{
+    background-color: var(--tertiary);
+    color: #fff;
+}

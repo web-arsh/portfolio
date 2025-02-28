@@ -50,16 +50,16 @@ export default function Section1 (){
                             <Icon clickEvent={showBtn}/>
                             <div className={`w-44 h-64 ${(event) ? "flex" : "hidden"} ps-2 justify-center items-start flex-col ${style.nav}`}>
                                 <h1 className={`text-3xl font-regular ${style.text} p-2`}>
-                                    <Link href={"#"}>About</Link>
+                                    <Link href={"#about"}>About</Link>
                                 </h1>
                                 <h1 className={`text-3xl font-regular ${style.text} p-2`}>
-                                    <Link href={"#"}>Experience</Link>
+                                    <Link href={"#experience"}>Experience</Link>
                                 </h1>
                                 <h1 className={`text-3xl font-regular ${style.text} p-2`}>
-                                    <Link href={"#"}>Projects</Link>
+                                    <Link href={"#projects"}>Projects</Link>
                                 </h1>
                                 <h1 className={`text-3xl font-regular ${style.text} p-2`}>
-                                    <Link href={"#"}>Contact</Link>
+                                    <Link href={"#contact"}>Contact</Link>
                                 </h1>
                             </div>
                         </div>
